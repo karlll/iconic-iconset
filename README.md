@@ -3,6 +3,9 @@ iconic-iconset
 
 Iconic icons in Polymer
 
+![screenshot](https://raw.githubusercontent.com/karlll/iconic-iconset/master/screenshot.png "Screenshot")
+
+
 ## Overview
 
 This repo contains the custom element `<iconic-iconset>` for using Iconic icons in your Polymer projects.
@@ -34,6 +37,7 @@ This repo contains the custom element `<iconic-iconset>` for using Iconic icons 
 Import the custom element definition, `<link rel="import" href="iconic-iconset.html">` and add an icon to your page,  `<iconic-iconset icon="thumb-up-md">`
 
 See `demo.html` for further examples. To view the demo page, your browser should allow local XHRs.
+
 
 ## Limitations
 
