@@ -1,7 +1,7 @@
 iconic-iconset
 ==============
 
-Iconic icons in Polymer
+Iconic icons in Polymer (http://www.polymer-project.org/)
 
 ![screenshot](https://raw.githubusercontent.com/karlll/iconic-iconset/master/screenshot.png "Screenshot")
 
@@ -17,7 +17,7 @@ This repo contains the custom element `<iconic-iconset>` for using Iconic icons 
 
 * bower
 * Iconic (pro); unlimited or non-commercial version
-  - Note: the open version of Iconic, Open Iconis (https://github.com/iconic/open-iconic) could easily be
+  - Note: the open version of Iconic, Open Iconic (https://github.com/iconic/open-iconic) could easily be
     made to work as well, see `iconic-iconset.html`
 
 ### Preparation
