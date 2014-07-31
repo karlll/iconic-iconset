@@ -34,7 +34,7 @@ This repo contains the custom element `<iconic-iconset>` for using Iconic icons 
 
 ## Usage
 
-Import the custom element definition, `<link rel="import" href="iconic-iconset.html">` and add an icon to your page,  `<iconic-iconset icon="thumb-up-md">`
+Import the custom element definition, `<link rel="import" href="iconic-iconset.html">` and add an icon to your page,  `<iconic-iconset icon="thumb-up-md" />`
 
 See `demo.html` for further examples. To view the demo page, your browser should allow local XHRs.
 
