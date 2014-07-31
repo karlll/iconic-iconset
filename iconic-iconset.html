@@ -1,0 +1,38 @@
+<script src="bower_components/svg-injector/dist/svg-injector.min.js"></script>
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<!--
+
+Iconic icons in Polymer
+
+##### Example
+
+@element iconic-iconset
+@blurb Iconic icons in Polymer
+@homepage https://github.com/karlll/iconic-iconset
+
+Change the path in data-src to use Open Iconic
+
+-->
+
+<polymer-element name="iconic-iconset" attributes="icon">
+
+  <template>
+
+    <img id="icon_holder" data-src="./iconic-web/svg/static/{{icon}}.svg">
+
+  </template>
+
+  <script>
+
+    Polymer('iconic-iconset', {
+
+      ready: function() {
+        var svg = this.$.icon_holder;
+        SVGInjector(svg);
+        }
+    });
+
+  </script>
+
+</polymer-element>
