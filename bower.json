@@ -1,13 +1,22 @@
 {
   "name": "iconic-iconset",
-  "description": "Iconic in Polymer",
-  "version": "0.0.1",
+  "description": "Iconic icons in Polymer",
+  "keywords" : "iconic, polymer, icon",
+  "version": "0.0.3",
+  "authors": [
+    "Karl Larsaeus <karl@ninjacontrol.com>"
+  ],
+  "main": "iconic-iconset.html",
   "homepage": "https://github.com/karlll/iconic-iconset",
   "license": "MIT",
   "private": false,
+  "ignore": [
+    "**/.*"
+  ],
   "dependencies": {
-    "polymer": "~0.3.3",
-    "core-elements": "Polymer/core-elements#~0.3.4",
+    "polymer": "Polymer/polymer#~0.3.3",
+    "polymer-test-tools": "Polymer/polymer-test-tools#~0.3.3",
     "svg-injector": "~1.1.0"
+
   }
 }

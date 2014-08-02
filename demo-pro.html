@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>Iconic iconset Demo</title>
+
+  <script src="../platform/platform.js"></script>
+  <link rel="import" href="iconic-iconset.html">
+</head>
+<body unresolved>
+
+
+<iconic-demo />
+<polymer-element name="iconic-demo">
+
+
+  <template>
+<style>
+
+iconic-iconset#custom_size::shadow #icon_holder {
+  width: 512px;
+  height: 512px;
+
+}
+
+iconic-iconset#custom_size::shadow .iconic-brain-hemisphere-left {
+   fill: orange;
+  stroke: red;
+
+}
+
+
+</style>
+
+<div wrap horizontal layout>
+  <segment><iconic-iconset icon="brain" type="smart" class="iconic-sm"></iconic-iconset>brain (.iconic-sm)</segment>
+  <segment><iconic-iconset icon="brain" type="smart" class="iconic-md"></iconic-iconset>brain (.iconic-md)</segment>
+  <segment><iconic-iconset icon="brain" type="smart" class="iconic-lg"></iconic-iconset>brain (.iconic-lg)</segment>
+</div>
+<div wrap horizontal layout>
+  <segment><iconic-iconset icon="brain" type="smart" class="iconic-sm iconic-size-lg"></iconic-iconset>brain (.iconic-sm .iconic-size-lg)</segment>
+  <segment><iconic-iconset icon="brain" type="smart" class="iconic-md iconic-size-lg"></iconic-iconset>brain (.iconic-md .iconic-size-lg)</segment>
+  <segment><iconic-iconset icon="brain" type="smart" class="iconic-lg iconic-size-md"></iconic-iconset>brain (.iconic-lg .iconic-size-md)</segment>
+</div>
+<div wrap horizontal layout>
+  <segment><iconic-iconset id="custom_size" icon="brain" type="smart" class="iconic-lg"></iconic-iconset>brain (custom size, fill, stroke)</segment>
+</div>
+
+  </template>
+
+<script>
+
+Polymer('iconic-demo', {
+
+});
+
+</script>
+</polymer-element>
+
+</body>
+</html>

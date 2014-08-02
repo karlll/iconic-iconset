@@ -1,10 +1,7 @@
 iconic-iconset
 ==============
 
-Iconic icons in Polymer (http://www.polymer-project.org/)
-
-![screenshot](https://raw.githubusercontent.com/karlll/iconic-iconset/master/screenshot.png "Screenshot")
-
+Iconic icons in Polymer
 
 ## Overview
 
@@ -16,14 +13,19 @@ This repo contains the custom element `<iconic-iconset>` for using Iconic icons 
 ### Requirements
 
 * bower
-* Iconic (pro); unlimited or non-commercial version
-  - Note: the open version of Iconic, Open Iconic (https://github.com/iconic/open-iconic) could easily be
-    made to work as well, see `iconic-iconset.html`
+* Iconic (pro or open version)
 
 ### Preparation
 
-* Download the pro version of the iconic icon-set from http://useiconic.com
-* Unpack in project root dir, rename directory to `iconic-web`
+* Download and extract in project root dir one (or both) of the Iconic versions below
+
+#### Open Iconic
+
+* Download https://github.com/iconic/open-iconic/archive/master.zip and extract to `open-iconic` in project directory
+
+#### Iconic Pro
+
+* Download from http://useiconic.com and extract to `iconic-web` in project directory
 
 
 ### Install dependencies
@@ -34,14 +36,13 @@ This repo contains the custom element `<iconic-iconset>` for using Iconic icons 
 
 ## Usage
 
-Import the custom element definition, `<link rel="import" href="iconic-iconset.html">` and add an icon to your page,  `<iconic-iconset icon="thumb-up-md" />`
+Import the custom element definition, `<link rel="import" href="iconic-iconset.html">` and add an icon to your page,  `<iconic-iconset icon="thumb" type="smart" class="iconic-md">`
 
 See `demo.html` for further examples. To view the demo page, your browser should allow local XHRs.
 
-
 ## Limitations
 
-- `iconic.js`is not used, so a lot of the described features at http://useiconic.com does not work.
+- Smart icon features such as data attributes and Javascrip API is not mapped from `iconic.js`
 
 ## License
 
