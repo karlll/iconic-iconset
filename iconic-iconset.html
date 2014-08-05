@@ -80,13 +80,13 @@ For more information about Iconic icons, see http://useiconic.com
         this.type = this.getAttribute('type') ? this.getAttribute('type') : 'static'
 
         if (this.type == "smart") {
-          this.svg_path = "iconic-web/svg/smart"
+          this.svg_path = this.resolvePath("iconic-web/svg/smart");
         } else if (this.type == "flattened" ) {
-          this.svg_path = "iconic-web/svg/flattened"
+          this.svg_path = this.resolvePath("iconic-web/svg/flattened");
         } else if (this.type == "open" ) {
-          this.svg_path = "open-iconic/svg"
+          this.svg_path = this.resolvePath("open-iconic/svg");
         } else {
-          this.svg_path = "iconic-web/svg/static"
+          this.svg_path = this.resolvePath("iconic-web/svg/static");
         }
 
       },
